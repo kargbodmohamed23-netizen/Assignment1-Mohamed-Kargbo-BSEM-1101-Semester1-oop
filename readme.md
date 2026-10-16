@@ -83,8 +83,18 @@ Privacy-respecting	No sensitive personal data is stored. The system deliberately
 Modular and reusable	The code is divided into two independent classes with clearly defined responsibilities. The Patient class can be reused in any health application, and the Vaccination class can be extended to support multiple centers, additional vaccines, or new domains such as livestock vaccination.
 Transparent and auditable	The logic is straightforward and fully documented, allowing health authorities or developers to inspect and verify how records are handled.
 Locally adaptable	Because there are no external dependencies, the system can be deployed offline in rural health posts where internet access is unreliable.
-7. Project Structure
+7. 
+Project Structure
+
 text
+Description of the Project Files
+1. main.py – Contains the main Python program, including the Patient and Vaccination classes, their methods, and the console menu used to register patients, record vaccinations, update records, search for patients, and display information.
+2. README.md – Provides an overview of the project, its purpose, features, installation instructions, and steps for running the application.
+3. LICENSE – Contains the MIT License, allowing others to use, modify, and distribute the source code under its terms.
+4. .gitignore – Specifies files and folders that Git should ignore when tracking changes to the project.
+Explanation
+This structure keeps the project simple and lightweight. The main application code is stored in main.py, while the README and license provide documentation and open-source permissions. The .gitignore file helps prevent unnecessary files, such as Python cache files, from being uploaded to GitHub.
+The project can be extended in the future by adding separate files for patient management, vaccination management, database storage, and automated testing as the system grows.
 
 
 
